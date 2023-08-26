@@ -1,0 +1,16 @@
+# Visual Studio
+.vs/
+
+# Rider
+.idea/
+
+# Unreal Engine
+Binaries/
+Content/
+DerivedDataCache/
+Intermediate/
+Platforms/
+Saved/
+
+# Misc
+.DS_Store/
