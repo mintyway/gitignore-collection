@@ -9,6 +9,7 @@
 
 # Unreal Engine
 Binaries/
+Build/
 DerivedDataCache/
 Intermediate/
 Platforms/
