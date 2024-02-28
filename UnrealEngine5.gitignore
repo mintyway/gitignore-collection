@@ -7,13 +7,58 @@
 .idea/
 *.uproject.DotSettings.user
 
+# Misc
+.DS_Store/
+
 # Unreal Engine
-Binaries/
+Binaries/*
+Binaries/Win64
+Binaries/Win64/*
+## Build Data ~
+Binaries/Win64/ProjectCardReturnEditor.target
+Binaries/Win64/UnrealEditor.modules
+Binaries/Win64/UnrealEditor-ProjectCardReturn.dll
+## Build Data
 Build/
 DerivedDataCache/
 Intermediate/
 Platforms/
 Saved/
 
-# Misc
-.DS_Store/
+# FMODStudio     // Remove when not in use
+FMODProject/*
+!FMODProject/Assets
+!FMODProject/Metadata
+!FMODProject/FMODProject.fspro
+
+Plugins/FMODStudio/Docs
+Plugins/FMODStudio/Binaries/*
+!Plugins/FMODStudio/Binaries/Win64
+Plugins/FMODStudio/Binaries/Win64/*
+!Plugins/FMODStudio/Binaries/Win64/fmod.dll
+!Plugins/FMODStudio/Binaries/Win64/fmod_vc.lib
+!Plugins/FMODStudio/Binaries/Win64/fmodL.dll
+!Plugins/FMODStudio/Binaries/Win64/fmodL_vc.lib
+!Plugins/FMODStudio/Binaries/Win64/fmodstudio.dll
+!Plugins/FMODStudio/Binaries/Win64/fmodstudio_vc.lib
+!Plugins/FMODStudio/Binaries/Win64/fmodstudioL.dll
+!Plugins/FMODStudio/Binaries/Win64/fmodstudioL_vc.lib
+!Plugins/FMODStudio/Binaries/Win64/resonanceaudio.dll
+## Build Data ~
+Plugins/FMODStudio/Binaries/Win64/UnrealEditor.modules
+Plugins/FMODStudio/Binaries/Win64/UnrealEditor-FMODStudio.dll
+Plugins/FMODStudio/Binaries/Win64/UnrealEditor-FMODStudioEditor.dll
+## Build Data
+Plugins/FMODStudio/Intermediate
+
+# KawaiiPhysics     // Remove when not in use\
+Plugins/KawaiiPhysics/Binaries/*
+!Plugins/KawaiiPhysics/Binaries/Win64
+Plugins/KawaiiPhysics/Binaries/Win64/*
+Plugins/KawaiiPhysics/Intermediate
+
+## Build Data ~
+Plugins/KawaiiPhysics/Binaries/Win64/UnrealEditor.modules
+Plugins/KawaiiPhysics/Binaries/Win64/UnrealEditor-KawaiiPhysics.dll
+Plugins/KawaiiPhysics/Binaries/Win64/UnrealEditor-KawaiiPhysicsEd.dll
+## Build Data
