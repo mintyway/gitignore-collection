@@ -14,11 +14,12 @@
 ProjectName/Binaries/*
 !ProjectName/Binaries/Win64
 ProjectName/Binaries/Win64/*
+
 ## Build Data ~
-ProjectName/Binaries/Win64/ProjectNameEditor.target
-ProjectName/Binaries/Win64/UnrealEditor.modules
-ProjectName/Binaries/Win64/UnrealEditor-ProjectName.dll
-## Build Data
+!ProjectName/Binaries/Win64/ProjectNameEditor.target
+!ProjectName/Binaries/Win64/UnrealEditor.modules
+!ProjectName/Binaries/Win64/UnrealEditor-ProjectName.dll
+
 ProjectName/Build/
 ProjectName/DerivedDataCache/
 ProjectName/Intermediate/
@@ -44,11 +45,12 @@ ProjectName/Plugins/FMODStudio/Binaries/Win64/*
 !ProjectName/Plugins/FMODStudio/Binaries/Win64/fmodstudioL.dll
 !ProjectName/Plugins/FMODStudio/Binaries/Win64/fmodstudioL_vc.lib
 !ProjectName/Plugins/FMODStudio/Binaries/Win64/resonanceaudio.dll
+
 ## Build Data ~
-ProjectName/Plugins/FMODStudio/Binaries/Win64/UnrealEditor.modules
-ProjectName/Plugins/FMODStudio/Binaries/Win64/UnrealEditor-FMODStudio.dll
-ProjectName/Plugins/FMODStudio/Binaries/Win64/UnrealEditor-FMODStudioEditor.dll
-## Build Data
+!ProjectName/Plugins/FMODStudio/Binaries/Win64/UnrealEditor.modules
+!ProjectName/Plugins/FMODStudio/Binaries/Win64/UnrealEditor-FMODStudio.dll
+!ProjectName/Plugins/FMODStudio/Binaries/Win64/UnrealEditor-FMODStudioEditor.dll
+
 ProjectName/Plugins/FMODStudio/Intermediate
 
 # KawaiiPhysics     // Remove when not in use\
@@ -58,7 +60,6 @@ ProjectName/Plugins/KawaiiPhysics/Binaries/Win64/*
 ProjectName/Plugins/KawaiiPhysics/Intermediate
 
 ## Build Data ~
-ProjectName/Plugins/KawaiiPhysics/Binaries/Win64/UnrealEditor.modules
-ProjectName/Plugins/KawaiiPhysics/Binaries/Win64/UnrealEditor-KawaiiPhysics.dll
-ProjectName/Plugins/KawaiiPhysics/Binaries/Win64/UnrealEditor-KawaiiPhysicsEd.dll
-## Build Data
+!ProjectName/Plugins/KawaiiPhysics/Binaries/Win64/UnrealEditor.modules
+!ProjectName/Plugins/KawaiiPhysics/Binaries/Win64/UnrealEditor-KawaiiPhysics.dll
+!ProjectName/Plugins/KawaiiPhysics/Binaries/Win64/UnrealEditor-KawaiiPhysicsEd.dll
