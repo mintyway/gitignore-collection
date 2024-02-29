@@ -11,19 +11,19 @@
 .DS_Store/
 
 # Unreal Engine
-Binaries/*
-Binaries/Win64
-Binaries/Win64/*
+ProjectName/Binaries/*
+!ProjectName/Binaries/Win64
+ProjectName/Binaries/Win64/*
 ## Build Data ~
-Binaries/Win64/ProjectCardReturnEditor.target
-Binaries/Win64/UnrealEditor.modules
-Binaries/Win64/UnrealEditor-ProjectCardReturn.dll
+ProjectName/Binaries/Win64/ProjectNameEditor.target
+ProjectName/Binaries/Win64/UnrealEditor.modules
+ProjectName/Binaries/Win64/UnrealEditor-ProjectName.dll
 ## Build Data
-Build/
-DerivedDataCache/
-Intermediate/
-Platforms/
-Saved/
+ProjectName/Build/
+ProjectName/DerivedDataCache/
+ProjectName/Intermediate/
+ProjectName/Platforms/
+ProjectName/Saved/
 
 # FMODStudio     // Remove when not in use
 FMODProject/*
@@ -31,34 +31,34 @@ FMODProject/*
 !FMODProject/Metadata
 !FMODProject/FMODProject.fspro
 
-Plugins/FMODStudio/Docs
-Plugins/FMODStudio/Binaries/*
-!Plugins/FMODStudio/Binaries/Win64
-Plugins/FMODStudio/Binaries/Win64/*
-!Plugins/FMODStudio/Binaries/Win64/fmod.dll
-!Plugins/FMODStudio/Binaries/Win64/fmod_vc.lib
-!Plugins/FMODStudio/Binaries/Win64/fmodL.dll
-!Plugins/FMODStudio/Binaries/Win64/fmodL_vc.lib
-!Plugins/FMODStudio/Binaries/Win64/fmodstudio.dll
-!Plugins/FMODStudio/Binaries/Win64/fmodstudio_vc.lib
-!Plugins/FMODStudio/Binaries/Win64/fmodstudioL.dll
-!Plugins/FMODStudio/Binaries/Win64/fmodstudioL_vc.lib
-!Plugins/FMODStudio/Binaries/Win64/resonanceaudio.dll
+ProjectName/Plugins/FMODStudio/Docs
+ProjectName/Plugins/FMODStudio/Binaries/*
+!ProjectName/Plugins/FMODStudio/Binaries/Win64
+ProjectName/Plugins/FMODStudio/Binaries/Win64/*
+!ProjectName/Plugins/FMODStudio/Binaries/Win64/fmod.dll
+!ProjectName/Plugins/FMODStudio/Binaries/Win64/fmod_vc.lib
+!ProjectName/Plugins/FMODStudio/Binaries/Win64/fmodL.dll
+!ProjectName/Plugins/FMODStudio/Binaries/Win64/fmodL_vc.lib
+!ProjectName/Plugins/FMODStudio/Binaries/Win64/fmodstudio.dll
+!ProjectName/Plugins/FMODStudio/Binaries/Win64/fmodstudio_vc.lib
+!ProjectName/Plugins/FMODStudio/Binaries/Win64/fmodstudioL.dll
+!ProjectName/Plugins/FMODStudio/Binaries/Win64/fmodstudioL_vc.lib
+!ProjectName/Plugins/FMODStudio/Binaries/Win64/resonanceaudio.dll
 ## Build Data ~
-Plugins/FMODStudio/Binaries/Win64/UnrealEditor.modules
-Plugins/FMODStudio/Binaries/Win64/UnrealEditor-FMODStudio.dll
-Plugins/FMODStudio/Binaries/Win64/UnrealEditor-FMODStudioEditor.dll
+ProjectName/Plugins/FMODStudio/Binaries/Win64/UnrealEditor.modules
+ProjectName/Plugins/FMODStudio/Binaries/Win64/UnrealEditor-FMODStudio.dll
+ProjectName/Plugins/FMODStudio/Binaries/Win64/UnrealEditor-FMODStudioEditor.dll
 ## Build Data
-Plugins/FMODStudio/Intermediate
+ProjectName/Plugins/FMODStudio/Intermediate
 
 # KawaiiPhysics     // Remove when not in use\
-Plugins/KawaiiPhysics/Binaries/*
-!Plugins/KawaiiPhysics/Binaries/Win64
-Plugins/KawaiiPhysics/Binaries/Win64/*
-Plugins/KawaiiPhysics/Intermediate
+ProjectName/Plugins/KawaiiPhysics/Binaries/*
+!ProjectName/Plugins/KawaiiPhysics/Binaries/Win64
+ProjectName/Plugins/KawaiiPhysics/Binaries/Win64/*
+ProjectName/Plugins/KawaiiPhysics/Intermediate
 
 ## Build Data ~
-Plugins/KawaiiPhysics/Binaries/Win64/UnrealEditor.modules
-Plugins/KawaiiPhysics/Binaries/Win64/UnrealEditor-KawaiiPhysics.dll
-Plugins/KawaiiPhysics/Binaries/Win64/UnrealEditor-KawaiiPhysicsEd.dll
+ProjectName/Plugins/KawaiiPhysics/Binaries/Win64/UnrealEditor.modules
+ProjectName/Plugins/KawaiiPhysics/Binaries/Win64/UnrealEditor-KawaiiPhysics.dll
+ProjectName/Plugins/KawaiiPhysics/Binaries/Win64/UnrealEditor-KawaiiPhysicsEd.dll
 ## Build Data
